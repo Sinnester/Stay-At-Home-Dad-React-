@@ -2,7 +2,7 @@ import React from 'react';
 
 function AboutPage() {
   return (
-    <div>
+    <div className="page">
       <h1>About Being a Stay-at-Home Dad</h1>
       <p>
         Being a stay-at-home dad is a rewarding and challenging experience. Some

@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: #bde4f5;
   font-family: 'Comic Sans MS', cursive, sans-serif;
 }
@@ -37,25 +39,41 @@ textarea {
 }
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  width: 100%;
+  padding: 10px;
   background-color: #000;
   color: #fff;
-  padding: 10px 20px;
+  margin: 0 -20px;
 }
 
-.navbar-brand {
-  font-size: 1.5em;
+.navbar-brand-link {
+  margin-right: 20px;
 }
 
 .navbar-links {
-  display: flex;
+  margin-left: 20px;
 }
 
 .navbar-link {
   margin: 0 10px;
 }
-
+.navbar-brand-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 .navbar-link:hover {
   text-decoration: underline;
+  cursor: pointer;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
 }

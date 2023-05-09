@@ -15,7 +15,7 @@ function ContactPage() {
   };
 
   return (
-    <div>
+    <div className="page">
       <h1>Contact Us</h1>
       <form onSubmit={handleSubmit}>
         <label>

@@ -6,30 +6,36 @@ function HomePage(props) {
   };
 
   return (
-    <div>
+    <div className="page">
       <h1>Welcome to Stay-at-Home Dad</h1>
       <p>Where dads rule the roost and parenting is a team sport.</p>
       <p>
-        Being a stay-at-home dad is a unique experience that comes with its own
-        set of joys:
+        Stay-at-Home Dads (SAHDs) are fathers who take on the primary caregiver
+        role for their children while their partners work outside the home.
+        Although SAHDs are still a minority, their numbers have been steadily
+        increasing over the years as more and more fathers choose to stay home
+        with their children.
       </p>
-      <ul>
-        <li>Bonding with your child on a deeper level</li>
-        <li>Having a flexible schedule</li>
-        <li>Learning new skills and improving existing ones</li>
-        <li>Being able to witness all of your child's milestones</li>
-      </ul>
       <p>
-        Being a stay-at-home dad is a unique experience that comes with its own
-        set of challenges:
+        Being a SAHD can be a challenging and rewarding experience. SAHDs may
+        face societal stereotypes and gender norms that assume that caregiving
+        is a mother's role. They may also face isolation and lack of support
+        from other parents or family members.
       </p>
-      <ul>
-        <li>Feeling isolated from other adults</li>
-        <li>Feeling like your identity is tied solely to being a parent</li>
-        <li>
-          Struggling to balance parenting duties with other responsibilities
-        </li>
-      </ul>
+      <p>
+        However, being a SAHD can also offer unique opportunities for bonding
+        with their children, contributing to their development, and building a
+        strong family unit. SAHDs can also benefit from the flexibility and
+        creativity that come with managing a household and caring for children
+        full-time.
+      </p>
+      <p>
+        If you're a SAHD or thinking of becoming one, there are resources and
+        support networks available to help you navigate this role. Check out
+        online forums, local parent groups, and organizations that support
+        fathers and families.
+      </p>
+
       <button onClick={handleLearnMoreClick}>Learn More</button>
     </div>
   );
