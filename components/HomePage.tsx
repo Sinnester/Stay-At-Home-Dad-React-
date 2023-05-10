@@ -7,6 +7,10 @@ function HomePage(props) {
 
   return (
     <div className="page">
+      <img
+        src="/images/StayAtHomeDad3.jpg"
+        alt="Dad doing dishes with two kids"
+      />
       <h1>Welcome to Stay-at-Home Dad</h1>
       <p>Where dads rule the roost and parenting is a team sport.</p>
       <p>
